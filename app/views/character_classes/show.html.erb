@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @character_class.name %>
+</p>
+
+<p>
+  <strong>Class level:</strong>
+  <%= @character_class.class_level %>
+</p>
+
+<p>
+  <strong>Hitdice:</strong>
+  <%= @character_class.hitdice %>
+</p>
+
+<p>
+  <strong>Bab:</strong>
+  <%= @character_class.bab %>
+</p>
+
+<p>
+  <strong>Fortitude:</strong>
+  <%= @character_class.fortitude %>
+</p>
+
+<p>
+  <strong>Reflex:</strong>
+  <%= @character_class.reflex %>
+</p>
+
+<p>
+  <strong>Will:</strong>
+  <%= @character_class.will %>
+</p>
+
+<%= link_to 'Edit', edit_character_class_path(@character_class) %> |
+<%= link_to 'Back', character_classes_path %>
